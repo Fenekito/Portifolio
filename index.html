@@ -1,106 +1,119 @@
 <!DOCTYPE HTML>
-  <html lang="pt-br">
-    <head>
-      <meta charset="UTF-8">
-      <meta http-equiv="X-UA-Compatible" content="IE=edge">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <link rel="stylesheet" href="css/bootstrap.css">
-      <link rel="stylesheet" href="css/w3.css">
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-      <link rel="stylesheet" href="css/fonts.css">
-    </head>
-    <body style="background-color: black;">
-      <nav class="w3-sidebar container-fluid w3-padding-64 w3-hide-medium w3-hide-small" style="background-color: rgba(0, 0, 0, 0.507);">
-          <a href="#aboutme" class="w3-bar-item w3-button w3-padding-large w3-hover-black w3-hover-text-cyan w3-text-white" style="width: 170px;">
-            <i class="fa fa-address-card w3-xxlarge"></i>
-            <h4>About Me</h4>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <title>Juan Claudio Caires Pereira Portfolio</title>
+  <style>
+    body {
+      background-color: black;
+      color: white;
+    }
+    .section {
+      background-color: rgba(27, 27, 27, 0.507);
+      padding: 32px;
+      margin-bottom: 20px;
+    }
+    .project-img {
+      width: 100%;
+      transition: transform 0.2s;
+    }
+    .project-img:hover {
+      transform: scale(1.05);
+    }
+  </style>
+</head>
+<body>
+  <div class="container-fluid text-center section">
+    <h1 id="about" class="mb-4">About Me</h1>
+    <div class="row">
+      <div class="col-12 mb-4">
+        <img src="https://media.licdn.com/dms/image/v2/D4D03AQGRKP_9iKNhEQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1726159745227?e=1734566400&v=beta&t=tfiOGvHyuCsi_lfjxA81x57aUMoXeaPuzjZFsusnvCk" alt="Profile Photo" class="img-fluid rounded-circle" style="width: 150px; height: 150px;">
+      </div>
+      <div class="col-12 mb-4"></div>
+      <h3 style="text-align: justify;">
+            Hello! I'm Juan Claudio Caires Pereira, a dedicated software developer specializing in back-end development and game development using the Godot Engine. 
+            I have a strong background in creating scalable and efficient systems, and I enjoy solving complex problems through code. 
+            When I'm not working on projects, I'm usually enjoying my hobbies!
+      </h3>
+      </div>
+    </div>
+  </div>
+  <div class="container-fluid text-center section">
+    <h1 id="projects" class="mb-4">Projects</h1>
+    <div class="row">
+      <div class="col-md-4 mb-4">
+        <div class="card bg-dark text-white">
+          <a href="https://www.linkedin.com/company/matchjobs-app/">
+            <img class="card-img-top project-img" src="images/matchjobs.png" alt="Matchjobs (Back-End Developer)">
           </a>
-          <a href="#skills" class="w3-bar-item w3-button w3-padding-large w3-hover-black w3-hover-text-cyan w3-text-white" style="width: 170px;">
-            <i class="fa fa-code w3-xxlarge"></i>
-            <h4>My Skills</h4>
-          </a>
-          <a href="#projects" class="w3-bar-item w3-button w3-padding-large w3-hover-black w3-hover-text-cyan w3-text-white" style="width: 170px;">
-            <i class="fa fa-folder w3-xxlarge"></i>
-            <h4>My Projects</h4>
-          </a>
-          <a href="#" class="w3-bar-item w3-button w3-padding-large w3-hover-black w3-hover-text-cyan w3-text-white" style="width: 170px;">
-            <i class="fa fa-address-book w3-xxlarge"></i>
-            <h4>Contact</h4>
-          </a>
-      </nav>
-      <div class="container w3-center w3-padding-64">
-        <h1 id="aboutme">Hello I am Juan Claudio</h1>
-        <h2>And This Is My Portifolio</h2>
-        <div class="container-fluid w3-center w3-padding-large" style="background-color: rgba(27, 27, 27, 0.507);">
-          <h1>About Me</h1>
-          <h3>
-            <p>
-              Hi, I'm Juan Claudio Caires Pereira. I Work Under The Internet Pseudonym Fenekito. <br>
-              I Am A Game Developer and a Back-end WebDev, and have worked on multiple projects. <br>
-              I'm 18 Years Old but I started coding when I was 16, doing some simple applications on C# with Windows Forms. <br>
-              I Have Worked In The Development Of Desktop Apps, Websites And Digital Games. <br>
-              Some Of Which Have Their Source Code Avaiable On <a href="https://www.github.com/fenekito">Github</a>.
-            </p>
-          </h3>
-          <h1 id="skills">My Skills</h1>
-          <h3>
-            <p>
-              I'm Currently doing a System Development college on <a href="https://fatecpg.edu.br/">Fatec PG</a>.<br>
-              While still on my second semester I have already gained some knowledge not only by studdying there.<br>
-              But Also from having worked on some personal projects in between.<br>
-              My skills on the programming area lie mostly on the back-end side, although I do also have knowledge on front-end development.<br>
-              I can work with:<br>
-              <h4>Java</h4>
-              <h4>C#</h4>
-              <h4>PHP</h4>
-              <h4>Python</h4>
-              <h4>Javascript</h4>
-              <h4>Gdscript</h4> 
-            </p>
-          </h3>
-        </div>
-        <div class="container-fluid w3-center w3-padding-largem" style="background-color: rgba(27, 27, 27, 0.507);">
-          <h1 id="projects">My Projects</h1>
-          <h2>Finished Projects</h2>
-          <div class="container">
-            <div class="row">
-              <div class="col-sm">
-                <a href="https://ntls.itch.io/slide">
-                  <img width="80%" class="w3-hover-opacity" src="images/GW23Zg.png">
-                </a>
-                <h3>Slide! (Godot Engine)</h3> 
-              </div>
-              <div class="col-sm">
-                <a href="https://ntls.itch.io/Humanoid">
-                  <img width="80%" class="w3-hover-opacity" src="images/HumanoidCover.png">
-                </a>
-                <h3>Humanoid (Godot Engine)</h3> 
-              </div>              
-              <div class="col-sm">
-                <a href="https://ntls.itch.io/seasonmancer">
-                  <img width="80%" class="w3-hover-opacity" src="images/SeasonmanceryCover.png">
-                </a>
-                <h3>Seasonmancer (Godot Engine)</h3> 
-              </div>
-            </div>
+          <div class="card-body">
+            <h3 class="card-title">Matchjobs (Back-End Developer)</h3>
           </div>
-          <h2>In development</h2>
-          <div class="container">
-            <div class="row">
-              <div class="col-sm">
-                <img width="40%" class="w3-hover-grayscale" src="images/Nisty.png">
-                <h3>Nisty and the Corrupted Forest (Java)</h3> 
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="container-fluid w3-center w3-padding-largem" style="background-color: rgba(27, 27, 27, 0.507);">
-          <h1 id="projects">Contact</h1>
-          <h3>You can contact me by:</h3>
-          <h4><a href="https://www.linkedin.com/in/juan-cl%C3%A1udio-caires-pereira-b48607230/">Linkedin</a></h4>
-          <h4>juanccaires@gmail.com</h4>
-          <br>
         </div>
       </div>
-    </body>
-  </html>
+      <div class="col-md-4 mb-4">
+        <div class="card bg-dark text-white">
+          <a href="https://store.steampowered.com/app/3028840/Slide/">
+            <img class="card-img-top project-img" src="images/GW23Zg.png" alt="Slide! (Lead Developer)">
+          </a>
+          <div class="card-body">
+            <h3 class="card-title">Slide! (Lead Developer)</h3>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-4">
+        <div class="card bg-dark text-white">
+          <a href="https://ntls.itch.io/Humanoid">
+            <img class="card-img-top project-img" src="images/HumanoidCover.png" alt="Humanoid (Lead Developer)">
+          </a>
+          <div class="card-body">
+            <h3 class="card-title">Humanoid (Lead Developer)</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-4 mb-4">
+        <div class="card bg-dark text-white">
+          <a href="https://ntls.itch.io/seasonmancer">
+            <img class="card-img-top project-img" src="images/SeasonmanceryCover.png" alt="Seasonmancer (Lead Developer)">
+          </a>
+          <div class="card-body">
+            <h3 class="card-title">Seasonmancer (Lead Developer)</h3>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-4">
+        <div class="card bg-dark text-white">
+          <a href="https://ntls.itch.io/ascii-arena">
+            <img class="card-img-top project-img" src="images/ascii.png" alt="ASCII Arena (Lead Developer)">
+          </a>
+          <div class="card-body">
+            <h3 class="card-title">ASCII Arena (Lead Developer)</h3>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-4">
+        <div class="card bg-dark text-white">
+          <a href="https://ntls.itch.io/unhype-the-party">
+            <img class="card-img-top project-img" src="images/unhype.png" alt="Unhype the Party (Lead Developer)">
+          </a>
+          <div class="card-body">
+            <h3 class="card-title">Unhype the Party (Lead Developer)</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container-fluid text-center section">
+    <h1 id="contact" class="mb-4">Contact</h1>
+    <h3>You can contact me via:</h3>
+    <h4>
+      <a href="https://www.linkedin.com/in/juan-cl%C3%A1udio-caires-pereira-b48607230/" class="text-white">LinkedIn</a>
+    </h4>
+  </div>
+</body>
+</html>
