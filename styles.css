@@ -1,10 +1,8 @@
 body {
     font-family: 'Poppins', sans-serif;
-    background: url('images/background.png') no-repeat;
+    background: url('images/Background2.png') no-repeat;
     background-size: cover;
     color: white;
-    margin: 0;
-    padding: 0;
     scroll-behavior: smooth;
   }
   
@@ -21,8 +19,8 @@ body {
     padding: 48px;
     margin-bottom: 40px;
     box-shadow: 0 20px 20px rgba(0, 0, 0, 0.6);
-    transition: all 0.3s ease;
-    animation: fadeInUp 0.8s ease;
+    transition: all 0.3s ease-in-out;
+    animation: fadeInUp 0.8s ease-in-out;
   }
   
   @keyframes fadeInUp {
