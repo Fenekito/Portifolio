@@ -1,6 +1,6 @@
 body {
     font-family: 'Poppins', sans-serif;
-    background: url('images/Background2.png') no-repeat;
+    background: url('./images/Background2.png') no-repeat center center fixed;
     background-size: cover;
     color: white;
     scroll-behavior: smooth;
